@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Solena';
+    src: local('Solena'), local('Solena-Regular'),
+    url('fonts/solena/Solena.woff2') format('woff2'),
+    url('fonts/solena/Solena.woff') format('woff'),
+    url('fonts/solena/Solena.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nickainley';
+    src: local('Nickainley Normal'), local('Nickainley-Normal'),
+    url('fonts/nickainley/Nickainleynormal.woff2') format('woff2'),
+    url('fonts/nickainley/Nickainleynormal.woff') format('woff'),
+    url('fonts/nickainley/Nickainleynormal.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #e0dfb1 !important;
+    font-family: Nickainley;
+}
+.container {
+    width: 1900px;
+    margin: 0 auto;
+}
+.title {
+    text-align: center;
+    padding: 50px 0 0;
+    font-size: 60px;
+    font-weight: bold;
+    color: #7a6f4e;
+}
+.valentine-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+.heart-1,
+.heart-2 {
+    background: url('img/heart.png') no-repeat center;
+    width: 25%;
+    height: auto;
+}
+.heart-1 {
+    background-size: 30% auto;
+}
+.heart-2 {
+    background-size: 50% auto;
+}
+.valentine-item {
+    width: 1060px;
+    border: 50px solid transparent;
+    -webkit-border-image: url(img/border.png) 200 round;
+    -o-border-image: url(img/border.png) 200 round;
+    border-image: url(img/border.png) 200 round;
+    box-sizing: border-box;
+    position: relative;
+}
+.item-power {
+    background: url('img/power.jpg') no-repeat center;
+    height: 920px;
+    background-size: 960px 880px;
+}
+.item-smart {
+    background: url('img/smart.jpg') no-repeat center;
+    height: 680px;
+    background-size: 960px 640px;
+}
+.item-father {
+    background: url('img/father.jpg') no-repeat center;
+    height: 680px;
+    background-size: 960px 640px;
+}
+.item-lover {
+    background: url('img/lover.jpg') no-repeat center;
+    height: 720px;
+    background-size: 960px 680px;
+}
+.item-humor {
+    background: url('img/humor.jpg') no-repeat center;
+    height: 728px;
+    background-size: 960px 688px;
+}
+.item-twins-1 {
+    background: url('img/twins-1.jpg') no-repeat center;
+    height: 760px;
+    background-size: 960px 720px;
+}
+.item-twins-2 {
+    background: url('img/twins-2.jpg') no-repeat center;
+    height: 760px;
+    background-size: 960px 720px;
+}
+.item-twins-3 {
+    background: url('img/twins-3.jpg') no-repeat center;
+    height: 832px;
+    background-size: 960px 792px;
+}
+.item-hobby {
+    background: url('img/hobby.jpg') no-repeat center;
+    height: 715px;
+    background-size: 960px 675px;
+}
+.item-sincere {
+    background: url('img/sincere.jpg') no-repeat center;
+    height: 680px;
+    background-size: 960px 640px;
+}
+.item-reliable {
+    background: url('img/reliable.jpg') no-repeat center;
+    height: 781px;
+    background-size: 960px 741px;
+}
+.item-forgiving {
+    background: url('img/forgiving.jpg') no-repeat center;
+    height: 665px;
+    background-size: 960px 625px;
+}
+.item-sociable {
+    background: url('img/sociable.jpg') no-repeat center;
+    height: 760px;
+    background-size: 960px 720px;
+}
+.item-generous {
+    background: url('img/generous.jpg') no-repeat center;
+    height: 760px;
+    background-size: 960px 720px;
+}
+.item-kind {
+    background: url('img/kind.jpg') no-repeat center;
+    height: 580px;
+    background-size: 960px 540px;
+}
+.item-best {
+    background: url('img/best.jpg') no-repeat center;
+    height: 680px;
+    background-size: 960px 640px;
+}
+.image-overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.valentine-title {
+    padding: 20px;
+    text-align: center;
+    color: #e0dfb1;
+    font-size: 30px;
+}

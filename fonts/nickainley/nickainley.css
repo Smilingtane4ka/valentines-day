@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Nickainley';
+    src: local('Nickainley Normal'), local('Nickainley-Normal'), url('Nickainleynormal.woff2') format('woff2'), url('Nickainleynormal.woff') format('woff'), url('Nickainleynormal.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
